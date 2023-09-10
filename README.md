@@ -69,4 +69,3 @@ If you'd like to contribute to this project, please follow these steps:
 - [MySQL Connector/Python Documentation](https://pypi.org/project/mysql-connector-python/)
 
 Feel free to open issues or contribute to this project. Happy coding!
-```
