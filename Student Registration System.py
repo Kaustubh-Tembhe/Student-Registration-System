@@ -12,7 +12,7 @@ def connection():
             host='localhost',
             user='root',
             password='Ktembhe@12',
-            database='student_db'  # Specify the database name
+            database='student_db'
         )
         return conn
     except Error as e:
@@ -42,12 +42,8 @@ def createDatabaseAndTables():
     else:
         messagebox.showinfo("Error", "Failed to connect to MySQL server")
 
-# Rest of the code remains the same...
 
-# Call the function to create database and tables if they don't exist
 createDatabaseAndTables()
-
-# Rest of the code remains the same...
 
 
 def refreshTable():
